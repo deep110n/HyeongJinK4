@@ -22,7 +22,7 @@
 #include "version.h"
 
 /* Argp's global variables. */
-const char *argp_program_version = "F3 Write " F3_STR_VERSION;
+const char *argp_program_version = "F3 Write2 " F3_STR_VERSION;
 
 /* Arguments. */
 static char adoc[] = "<PATH>";
