@@ -186,7 +186,7 @@ static int create_and_fill_file(const char *path, long number, size_t size,
 	/* Create the file. */
 	full_fn = full_fn_from_number(&filename, path, number);
 	assert(full_fn);
-	printf("Creating file %s ... ", filename);
+	printf("Creating file %03d.h2w ... ", number);
 	fflush(stdout);
 	fd = open(full_fn, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 	if (fd < 0) {
